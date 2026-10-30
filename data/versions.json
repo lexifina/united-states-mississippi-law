@@ -1,0 +1,19 @@
+{
+ "country": "US-MS",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "MS Const.",
+   "title": "Constitution of the State of Mississippi (1890)",
+   "url": "https://sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
+   "versions": [
+    {
+     "from": "2022-05-01",
+     "units": 314,
+     "source_url": "https://sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
+     "sha256": "83aa76847e97a6b9aadb065e65a00f2fbf20a9e97b25b9a2d1c02c92e45d5459"
+    }
+   ]
+  }
+ ]
+}
