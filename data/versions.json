@@ -14,6 +14,34 @@
      "sha256": "83aa76847e97a6b9aadb065e65a00f2fbf20a9e97b25b9a2d1c02c92e45d5459"
     }
    ]
+  },
+  {
+   "slug": "title-55",
+   "short": "Miss. Code tit. 55",
+   "title": "Mississippi Code of 1972, Title 55: Parks and Recreation",
+   "url": "https://archive.org/details/mississippicode113unse",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 250,
+     "source_url": "https://archive.org/details/mississippicode113unse",
+     "sha256": "7643bc7fed28888953aaa05e3d8083439868f6a6101dd520942bcee24795566c"
+    }
+   ]
+  },
+  {
+   "slug": "title-57",
+   "short": "Miss. Code tit. 57",
+   "title": "Mississippi Code of 1972, Title 57: Planning, Research and Development",
+   "url": "https://archive.org/details/mississippicode113unse",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 683,
+     "source_url": "https://archive.org/details/mississippicode113unse",
+     "sha256": "7643bc7fed28888953aaa05e3d8083439868f6a6101dd520942bcee24795566c"
+    }
+   ]
   }
  ]
 }
