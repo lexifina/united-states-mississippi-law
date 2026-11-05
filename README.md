@@ -2,20 +2,25 @@
 
 The statute law of Mississippi as a git repository: one file per section, committed with the publisher named as author. It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
 
-**What is in it now (a first build, not complete)**
+**Recorded editions (coverage remains incomplete)**
+
+The table describes the editions prepared for this repository. A record is available in a checkout when its listed folder is present. This also allows documentation to describe a reviewed record while its inclusion is pending.
 
 | Folder | Act | Versions | History |
 | --- | --- | ---: | --- |
 | `constitution/` | Constitution of the State of Mississippi (1890) | 1 | The Secretary of State edition updated May 2022 (oldest version available) |
+| `ibogaine-drug-development-clinical-trial-act-2026/` | Ibogaine Drug Development Clinical Trial Act (2026) (15 sections) | 1 | As enacted; in force 2026-07-01 under the act's commencement clause |
 | `title-55/` | Mississippi Code of 1972, Title 55: Parks and Recreation (250 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 | `title-57/` | Mississippi Code of 1972, Title 57: Planning, Research and Development (683 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 
-That is all the law this repository holds today. The other titles of the Mississippi Code of 1972, the session laws and the regulations are not in it yet, and it has no amendment history yet.
+Coverage remains incomplete. Other Code titles, other session laws and regulations remain outside the listed records. No amendment history is represented.
 
 ## Where the text comes from
 
 - **Constitution:** [The Constitution of the State of Mississippi, annotated, updated May 2022](https://sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf), published by the Mississippi Secretary of State. Only the section numbers, headings and text are taken; the annotations, source lines and notes are left out.
 - **Mississippi Code of 1972:** the official code is published by LexisNexis for the State, under a click-through licence online. The code titles here are read instead from **Public.Resource.Org's scans of the printed 2022 Edition volumes** ("containing permanent public statutes of Mississippi to the end of the 2022 regular legislative session"), in its "Official State Codes" collection on the Internet Archive. That collection's rights statement quotes Banks v. Manchester, 128 U.S. 244 (1888): "The authentic exposition and interpretation of the law, which, binding every citizen, is free for publication to all". Statute text is not copyrightable (Georgia v. Public.Resource.Org, 590 U.S. 255 (2020)).
+
+- **Ibogaine Drug Development Clinical Trial Act (2026):** [HB 314 (2026), official final text](https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/0300-0399/HB0314SG.pdf). As enacted: House Bill 314 (2026), approved by the Governor March 26, 2026. Section 15: This act shall take effect and be in force from and after July 1, 2026. In-force basis: the express commencement clause in section 15. No subsequent amendments are represented.
 
 **Statute text only.** From each section the number, the catchline and the text up to its HISTORY line are kept. Everything the publisher adds is left out: the HISTORY lines, cross references, editor's notes, amendment notes, judicial decisions (case notes), opinions of the Attorney General, research references, editorial brackets in catchlines, running heads and page numbers. No annotation or other vendor material is included.
 
@@ -32,10 +37,11 @@ How the OCR was checked: the first reading is the Internet Archive's own Tessera
 
 - The Constitution's single version is dated 1 May 2022, from the edition's own "Updated May, 2022".
 - Each code title is one version, dated **1 July 2022**, the effective date of most acts of the 2022 regular session, which the 2022 Edition volumes include. A section whose HISTORY line gives a later effective date is left out. Each commit is credited to the publisher as "oldest version available".
+- Ibogaine Drug Development Clinical Trial Act (2026), HB 314 (2026), as enacted, in force 2026-07-01; dated by its express commencement clause.
 
 ## What it does not show
 
-- Any history before these editions, and any change after them.
+- Earlier versions and subsequent amendments to the recorded editions, including the as-enacted session-law records.
 - Repealed and reserved sections, sections not yet in force on 1 July 2022, sections whose HISTORY line could not be found in the OCR text, and sections below the 98% OCR agreement: each title's source note in `REPRODUCE.md` lists them.
 - Nothing here is an official publication or legal advice. For anything that matters, read the official text.
 
