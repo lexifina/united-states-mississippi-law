@@ -1,5 +1,11 @@
 {
  "parts": {
+  "q109-2026-hb0314.json": {
+   "acts": [
+    "ibogaine-drug-development-clinical-trial-act-2026"
+   ],
+   "sha256": "9b69a5dfb66415814341b4cab5ef7323514f58339ffab3a5e75cc67935584d67"
+  },
   "title-55.json": {
    "acts": [
     "title-55"

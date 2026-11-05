@@ -16,6 +16,20 @@
    ]
   },
   {
+   "slug": "ibogaine-drug-development-clinical-trial-act-2026",
+   "short": "HB 314 (2026)",
+   "title": "Ibogaine Drug Development Clinical Trial Act (2026)",
+   "url": "https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/0300-0399/HB0314SG.pdf",
+   "versions": [
+    {
+     "from": "2026-07-01",
+     "units": 16,
+     "source_url": "https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/0300-0399/HB0314SG.pdf",
+     "sha256": "12406516fdce18c5f3b9688d3f3d145bd37bc6ca834eb49ae46c101f27471e74"
+    }
+   ]
+  },
+  {
    "slug": "title-55",
    "short": "Miss. Code tit. 55",
    "title": "Mississippi Code of 1972, Title 55: Parks and Recreation",
