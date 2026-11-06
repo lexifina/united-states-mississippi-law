@@ -1,6 +1,6 @@
 # How this repository was made (United States (Mississippi))
 
-This file is written by the build on 2026-11-10, the day the source data was retrieved.
+This file is written by the build on 2026-11-05, the day the source data was retrieved.
 
 ## Sources
 
@@ -41,7 +41,7 @@ The build made 9 commits:
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
-- 0 commits on the branch `future`: laws not yet in force on 2026-11-10.
+- 0 commits on the branch `future`: laws not yet in force on 2026-11-05.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 1 laws in the record.
 - 9 tags.
@@ -58,7 +58,7 @@ When a law gives no date of its own, the default rule applies: Only the Secretar
 
 - Corpus: sha256 `31f2b9b23294214d2b0494030b850028c83b666350283483efde6e3550d062ba` (8251532 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `3024ff164c261807dfc4d5b7b1b4a2cde4357da1`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
-- Python 3.12.10; git version 2.46.0.windows.1.
+- Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
