@@ -18,6 +18,7 @@ The table describes the editions prepared for this repository. A record is avail
 | `title-61/` | Mississippi Code of 1972, Title 61: Aviation (143 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 | `title-63/` | Mississippi Code of 1972, Title 63: Motor Vehicles and Traffic Regulations (555 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 | `title-73/` | Mississippi Code of 1972, Title 73: Professions and Vocations (1003 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
+| `title-83/` | Mississippi Code of 1972, Title 83: Insurance (1106 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 
 Coverage remains incomplete. Other Code titles, other session laws and regulations remain outside the listed records. No amendment history is represented.
 
@@ -40,6 +41,7 @@ The code titles are scans, so their text was read by optical character recogniti
 - `title-61/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse_0>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 146 sections read were compared.
 - `title-63/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse_0>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 572 sections read were compared.
 - `title-73/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode115unse>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 501b88d1270841b7890d99d7f4e9ee5bbdb05da302631012979cac1b913945d8). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 1023 sections read were compared.
+- `title-83/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode11919unse>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 d4a4c7deb2804793ea6216ac29f2186362fc9ff8ae894b91f3be9e61d260c0a2). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 1124 sections read were compared.
 
 How the OCR was checked: the first reading is the Internet Archive's own Tesseract 5.2.0 text layer of each scan. A second, independent reading was made here with different settings (Tesseract 5.4.0, `--psm 4 --oem 1`, on each page rendered at 300 dpi). Every section, not only a sample, was compared on its letters and digits, word by word and then character by character; a section where the two readings agree on less than 98% is left out. Paragraph breaks and line-end hyphens are rebuilt from the page layout (a hyphen is removed only when the joined word occurs elsewhere in the volume), so a break or a hyphen can be wrong.
 

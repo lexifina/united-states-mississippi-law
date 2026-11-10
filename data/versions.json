@@ -112,6 +112,20 @@
      "sha256": "501b88d1270841b7890d99d7f4e9ee5bbdb05da302631012979cac1b913945d8"
     }
    ]
+  },
+  {
+   "slug": "title-83",
+   "short": "Miss. Code tit. 83",
+   "title": "Mississippi Code of 1972, Title 83: Insurance",
+   "url": "https://archive.org/details/mississippicode11919unse",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 1106,
+     "source_url": "https://archive.org/details/mississippicode11919unse",
+     "sha256": "d4a4c7deb2804793ea6216ac29f2186362fc9ff8ae894b91f3be9e61d260c0a2"
+    }
+   ]
   }
  ]
 }
