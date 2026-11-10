@@ -56,6 +56,48 @@
      "sha256": "7643bc7fed28888953aaa05e3d8083439868f6a6101dd520942bcee24795566c"
     }
    ]
+  },
+  {
+   "slug": "title-59",
+   "short": "Miss. Code tit. 59",
+   "title": "Mississippi Code of 1972, Title 59: Ports, Harbors, Landings and Watercraft",
+   "url": "https://archive.org/details/mississippicode113unse_0",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 301,
+     "source_url": "https://archive.org/details/mississippicode113unse_0",
+     "sha256": "40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656"
+    }
+   ]
+  },
+  {
+   "slug": "title-61",
+   "short": "Miss. Code tit. 61",
+   "title": "Mississippi Code of 1972, Title 61: Aviation",
+   "url": "https://archive.org/details/mississippicode113unse_0",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 143,
+     "source_url": "https://archive.org/details/mississippicode113unse_0",
+     "sha256": "40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656"
+    }
+   ]
+  },
+  {
+   "slug": "title-63",
+   "short": "Miss. Code tit. 63",
+   "title": "Mississippi Code of 1972, Title 63: Motor Vehicles and Traffic Regulations",
+   "url": "https://archive.org/details/mississippicode113unse_0",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 555,
+     "source_url": "https://archive.org/details/mississippicode113unse_0",
+     "sha256": "40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656"
+    }
+   ]
   }
  ]
 }

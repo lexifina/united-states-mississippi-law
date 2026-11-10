@@ -14,6 +14,9 @@ The table describes the editions prepared for this repository. A record is avail
 | `ibogaine-drug-development-clinical-trial-act-2026/` | Ibogaine Drug Development Clinical Trial Act (2026) (15 sections) | 1 | As enacted; in force 2026-07-01 under the act's commencement clause |
 | `title-55/` | Mississippi Code of 1972, Title 55: Parks and Recreation (250 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 | `title-57/` | Mississippi Code of 1972, Title 57: Planning, Research and Development (683 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
+| `title-59/` | Mississippi Code of 1972, Title 59: Ports, Harbors, Landings and Watercraft (301 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
+| `title-61/` | Mississippi Code of 1972, Title 61: Aviation (143 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
+| `title-63/` | Mississippi Code of 1972, Title 63: Motor Vehicles and Traffic Regulations (555 sections) | 1 | 2022 Edition volume, dated 1 July 2022 (oldest version available); text by OCR |
 
 Coverage remains incomplete. Other Code titles, other session laws and regulations remain outside the listed records. No amendment history is represented.
 
@@ -32,6 +35,9 @@ The code titles are scans, so their text was read by optical character recogniti
 
 - `title-55/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 7643bc7fed28888953aaa05e3d8083439868f6a6101dd520942bcee24795566c). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 253 sections read were compared.
 - `title-57/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 7643bc7fed28888953aaa05e3d8083439868f6a6101dd520942bcee24795566c). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 688 sections read were compared.
+- `title-59/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse_0>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 302 sections read were compared.
+- `title-61/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse_0>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 146 sections read were compared.
+- `title-63/`: OCR (Tesseract 5.2.0) of <https://archive.org/details/mississippicode113unse_0>. OCR text: the Internet Archive's Tesseract 5.2.0 text layer of the scan (PDF sha256 40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656). Second pass: local Tesseract 5.4.0, --psm 4 --oem 1, 300 dpi page renders; all 572 sections read were compared.
 
 How the OCR was checked: the first reading is the Internet Archive's own Tesseract 5.2.0 text layer of each scan. A second, independent reading was made here with different settings (Tesseract 5.4.0, `--psm 4 --oem 1`, on each page rendered at 300 dpi). Every section, not only a sample, was compared on its letters and digits, word by word and then character by character; a section where the two readings agree on less than 98% is left out. Paragraph breaks and line-end hyphens are rebuilt from the page layout (a hyphen is removed only when the joined word occurs elsewhere in the volume), so a break or a hyphen can be wrong.
 
@@ -44,7 +50,7 @@ How the OCR was checked: the first reading is the Internet Archive's own Tessera
 ## What it does not show
 
 - Earlier versions and subsequent amendments to the recorded editions, including the as-enacted session-law records.
-- Repealed and reserved sections, sections not yet in force on 1 July 2022, sections whose HISTORY line could not be found in the OCR text, and sections below the 98% OCR agreement: each title's source note in `REPRODUCE.md` lists them.
+- Repealed and reserved sections, sections not yet in force on 1 July 2022, sections whose HISTORY line could not be found in the OCR text, sections below the 98% OCR agreement, and (from titles 59 on) sections whose OCR text has the publisher's annotation column mixed into it: each title's source note in `REPRODUCE.md` lists them.
 - Nothing here is an official publication or legal advice. For anything that matters, read the official text.
 
 ## How it is checked

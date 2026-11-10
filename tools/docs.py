@@ -31,6 +31,8 @@ def main():
     REPO.mkdir(exist_ok=True)
     readme = f"""# Mississippi: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Mississippi, United States, which global-law reads at `united-states/mississippi/acts/`.
+
 The statute law of Mississippi as a git repository: one file per section, committed with the publisher named as author. It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
 
 **Recorded editions (coverage remains incomplete)**
@@ -70,7 +72,7 @@ How the OCR was checked: the first reading is the Internet Archive's own Tessera
 ## What it does not show
 
 - Earlier versions and subsequent amendments to the recorded editions, including the as-enacted session-law records.
-- Repealed and reserved sections, sections not yet in force on 1 July 2022, sections whose HISTORY line could not be found in the OCR text, and sections below the 98% OCR agreement: each title's source note in `REPRODUCE.md` lists them.
+- Repealed and reserved sections, sections not yet in force on 1 July 2022, sections whose HISTORY line could not be found in the OCR text, sections below the 98% OCR agreement, and (from titles 59 on) sections whose OCR text has the publisher's annotation column mixed into it: each title's source note in `REPRODUCE.md` lists them.
 - Nothing here is an official publication or legal advice. For anything that matters, read the official text.
 
 ## How it is checked
