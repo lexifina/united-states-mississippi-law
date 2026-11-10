@@ -13,6 +13,7 @@ This file is written by the build on 2026-11-10, the day the source data was ret
 | Mississippi Code of 1972, Mississippi Code, Vol. 13A, Title 59-63 (2022 Edition): scan by Public.Resource.Org on the Internet Archive (mississippicode113unse_0) | <https://archive.org/details/mississippicode113unse_0> | 2026-11-02 | Public.Resource.Org's "Official State Codes" collection (govlaw) on the Internet Archive, whose rights statement quotes Banks v. Manchester, 128 U.S. 244 (1888): "The authentic exposition and interpretation of the law, which, binding every citizen, is free for publication to all". Statute text is not copyrightable (Georgia v. Public.Resource.Org, 590 U.S. 255 (2020)); the annotations, under the State's copyright notice, are not used. |
 | Mississippi Code of 1972, Mississippi Code, Vol. 13A, Title 59-63 (2022 Edition): scan by Public.Resource.Org on the Internet Archive (mississippicode113unse_0) | <https://archive.org/details/mississippicode113unse_0> | 2026-11-02 | Public.Resource.Org's "Official State Codes" collection (govlaw) on the Internet Archive, whose rights statement quotes Banks v. Manchester, 128 U.S. 244 (1888): "The authentic exposition and interpretation of the law, which, binding every citizen, is free for publication to all". Statute text is not copyrightable (Georgia v. Public.Resource.Org, 590 U.S. 255 (2020)); the annotations, under the State's copyright notice, are not used. |
 | Mississippi Code of 1972, Mississippi Code, Vol. 13A, Title 59-63 (2022 Edition): scan by Public.Resource.Org on the Internet Archive (mississippicode113unse_0) | <https://archive.org/details/mississippicode113unse_0> | 2026-11-02 | Public.Resource.Org's "Official State Codes" collection (govlaw) on the Internet Archive, whose rights statement quotes Banks v. Manchester, 128 U.S. 244 (1888): "The authentic exposition and interpretation of the law, which, binding every citizen, is free for publication to all". Statute text is not copyrightable (Georgia v. Public.Resource.Org, 590 U.S. 255 (2020)); the annotations, under the State's copyright notice, are not used. |
+| Mississippi Code of 1972, Mississippi Code, Vol. 15A, Title 73 (2022 Edition): scan by Public.Resource.Org on the Internet Archive (mississippicode115unse) | <https://archive.org/details/mississippicode115unse> | 2026-11-02 | Public.Resource.Org's "Official State Codes" collection (govlaw) on the Internet Archive, whose rights statement quotes Banks v. Manchester, 128 U.S. 244 (1888): "The authentic exposition and interpretation of the law, which, binding every citizen, is free for publication to all". Statute text is not copyrightable (Georgia v. Public.Resource.Org, 590 U.S. 255 (2020)); the annotations, under the State's copyright notice, are not used. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -27,12 +28,13 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `title-59` | Mississippi Code of 1972, Title 59: Ports, Harbors, Landings and Watercraft | 1 | 2022-07-01 to 2022-07-01 |
 | `title-61` | Mississippi Code of 1972, Title 61: Aviation | 1 | 2022-07-01 to 2022-07-01 |
 | `title-63` | Mississippi Code of 1972, Title 63: Motor Vehicles and Traffic Regulations | 1 | 2022-07-01 to 2022-07-01 |
+| `title-73` | Mississippi Code of 1972, Title 73: Professions and Vocations | 1 | 2022-07-01 to 2022-07-01 |
 
-The build made 7 commits:
+The build made 8 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 7 | first version of an act |
+| 8 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
@@ -40,7 +42,7 @@ Other counts:
 - 0 commits on the branch `future`: laws not yet in force on 2026-11-10.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 1 laws in the record.
-- 7 tags.
+- 8 tags.
 
 ## Dates
 
@@ -52,7 +54,7 @@ When a law gives no date of its own, the default rule applies: Only the Secretar
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `18ff41516fff11c4ed3bc51925afb9eb9f1cdf59021c2e9e5b8a68d8282be945` (3815331 bytes).
+- Corpus: sha256 `2c427a56031b1d8e6721b08c1522a75ca228514e9d05e1440ad432d03ade84fa` (6034825 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `3024ff164c261807dfc4d5b7b1b4a2cde4357da1`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.12.10; git version 2.46.0.windows.1.
 
@@ -82,6 +84,8 @@ No second build of this corpus has been compared yet.
 - Mississippi Code title 61: text read by OCR; only the statute text between each section heading and its HISTORY line is kept; HISTORY lines, cross references, editor's notes, amendment notes, judicial decisions, Attorney General opinions and research references (the publisher's annotations) are left out.
 - Mississippi Code title 63: one version, the 2022 Edition volume (Mississippi Code, Vol. 13A, Title 59-63 (2022 Edition)), dated 2022-07-01, the effective date of most acts of the 2022 regular session; sections whose HISTORY line gives a later effective date are left out.
 - Mississippi Code title 63: text read by OCR; only the statute text between each section heading and its HISTORY line is kept; HISTORY lines, cross references, editor's notes, amendment notes, judicial decisions, Attorney General opinions and research references (the publisher's annotations) are left out.
+- Mississippi Code title 73: one version, the 2022 Edition volume (Mississippi Code, Vol. 15A, Title 73 (2022 Edition)), dated 2022-07-01, the effective date of most acts of the 2022 regular session; sections whose HISTORY line gives a later effective date are left out.
+- Mississippi Code title 73: text read by OCR; only the statute text between each section heading and its HISTORY line is kept; HISTORY lines, cross references, editor's notes, amendment notes, judicial decisions, Attorney General opinions and research references (the publisher's annotations) are left out.
 
 ## What AI did and did not do
 
@@ -94,6 +98,7 @@ The commit messages are written by `build.py` from the source data.
 Model use at data-build time:
 - none
 - GPT-6 inspected source structure, selected the standalone act and wrote extraction and verification code; no model-generated law text or OCR was used.
+- none
 - none
 - none
 - none

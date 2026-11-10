@@ -98,6 +98,20 @@
      "sha256": "40db225ac3d4e82bd969b1ace3d643740a5ae52a22e0c683db0329c2c4271656"
     }
    ]
+  },
+  {
+   "slug": "title-73",
+   "short": "Miss. Code tit. 73",
+   "title": "Mississippi Code of 1972, Title 73: Professions and Vocations",
+   "url": "https://archive.org/details/mississippicode115unse",
+   "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 1003,
+     "source_url": "https://archive.org/details/mississippicode115unse",
+     "sha256": "501b88d1270841b7890d99d7f4e9ee5bbdb05da302631012979cac1b913945d8"
+    }
+   ]
   }
  ]
 }
